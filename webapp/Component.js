@@ -5,7 +5,7 @@ sap.ui.define([
 ], (UIComponent, JSONModel, ResourceModel) => {
   "use strict";
 
-  return UIComponent.extend("", {
+  return UIComponent.extend("ui5.walkthrough.Component", {
     metadata : {
       "interfaces": ["sap.ui.core.IAsyncContentCreation"],
       "rootView": {
